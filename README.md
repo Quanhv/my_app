@@ -1,6 +1,6 @@
 # README
 
-This is my application to studing rails
+This is my application to studying rails
 
 ### Contact me if you have any questions:
 - email: quandhcn@gmail.com
