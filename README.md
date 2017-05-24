@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is my application to studing rails
 
-Things you may want to cover:
+### Contact me if you have any questions:
+- email: quandhcn@gmail.com
+- phone number: 016560870xx
+- messager: https://www.facebook.com/messages/t/100001634920013
 
-* Ruby version
+### Getting start
 
-* System dependencies
+Clone the repo and install needed gems:
+```
+bundle install
 
-* Configuration
+rails db:migrate
 
-* Database creation
+rails test
 
-* Database initialization
+rails server
+```
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Thanks
