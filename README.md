@@ -21,3 +21,5 @@ rails server
 ```
 
 Thanks
+Ky ten
+Quan
