@@ -10,6 +10,7 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
+      log_in @user
       flash[:success] = "Chúc mừng bạn đã đăng ký thành công tại My Application"
       redirect_to user_path(@user)
     else
