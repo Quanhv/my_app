@@ -4,3 +4,14 @@ user1:
   name: quan
   email: quanhv@runsystem.net
   password_digest: <%= User.digest('password') %>
+
+user2:
+  name: quan1
+  email: quanhv1@runsystem.net
+  password_digest: <%= User.digest('password') %>
+
+admin:
+  name: admin
+  email: admin@runsystem.net
+  password_digest: <%= User.digest('password') %>
+  admin: true
