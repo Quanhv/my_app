@@ -1,6 +1,9 @@
 class StaticPagesController < ApplicationController
   def home
-    # render :not_home
+    if current_user
+      @micropost = current_user.microposts.build
+      @feed_items = current_user.microposts.page params[:page]
+    end
   end
 
   def help
